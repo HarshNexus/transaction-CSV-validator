@@ -1,0 +1,6 @@
+"Order ID","Customer Name","Customer Phone","Country","Order Date","Order Time","Product ID","Product Name","Quantity","Price","Payment Mode","Transaction ID","Reason(s)"
+"","No Order","9876543210","India","2025-02-06","09:00:00","P-206","Monitor","1","5000.0","UPI","TXN-8006","Order ID is required."
+"ORD-2007","","9876543210","India","2025-02-07","09:00:00","P-207","Chair","1","3000.0","UPI","TXN-8007","Customer Name is required."
+"ORD-2008","Bad Phone","12345","India","2025-02-08","09:00:00","P-208","Desk","1","1000.0","UPI","TXN-8008","Invalid phone number for the specified country."
+"ORD-2009","Bad Country","9876543210","Germany","2025-02-09","09:00:00","P-209","Lamp","1","500.0","UPI","TXN-8009","Invalid phone number for the specified country.; Invalid or unsupported country."
+"ORD-2010","Bad Payment","9876543210","India","2025-02-10","09:00:00","P-210","Cable","1","100.0","Crypto","TXN-8010","Invalid payment mode."

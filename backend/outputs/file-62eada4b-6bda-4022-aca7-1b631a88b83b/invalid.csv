@@ -1,0 +1,6 @@
+"Order ID","Customer Name","Customer Phone","Country","Order Date","Order Time","Product ID","Product Name","Quantity","Price","Payment Mode","Transaction ID","Reason(s)"
+"ORD001","David Miller","8765432109","India","2024-01-20","10:30:00","PROD006","Headphones","2","3000","Credit Card","TXN006","Duplicate Order ID."
+"ORD007","Eve Davis","","India","2024-01-21","15:45:00","PROD007","Webcam","1","2000","UPI","TXN007","Invalid phone number for the specified country."
+"ORD008","Frank Wilson","9876543210","India","InvalidDate","14:20:00","PROD008","Speaker","4","1800","Credit Card","TXN008","Invalid date format. Expected YYYY-MM-DD."
+"ORD009","Grace Lee","1234567890","USA","2024-01-22","25:99:99","PROD009","Charger","-1","500","Debit Card","TXN009","Invalid time format. Expected HH:mm:ss.; Quantity must be a positive integer."
+"ORD010","Heidi Clark","98765432","USA","2024-01-23","12:30:00","PROD010","SSD","1","5000","Invalid_Payment","TXN010","Invalid phone number for the specified country.; Invalid payment mode."

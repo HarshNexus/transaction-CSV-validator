@@ -1,0 +1,11 @@
+Order ID,Customer Name,Customer Phone,Country,Order Date,Order Time,Product ID,Product Name,Quantity,Price,Payment Mode,Transaction ID
+ORD-1001,Aarav Sharma,9876543210,India,2025-01-10,09:15:30,P-101,Wireless Mouse,2,799.5,UPI,TXN-9001
+ORD-1002,Diya Patel,9123456780,India,2025-01-11,10:20:45,P-102,Mechanical Keyboard,1,2499.0,Credit Card,TXN-9002
+ORD-1003,Vivaan Rao,9988776655,India,2025-01-12,11:05:10,P-103,Laptop Stand,3,1299.99,Cash,TXN-9003
+ORD-1004,Anaya Gupta,9012345678,India,2025-01-13,12:40:05,P-104,USB-C Hub,1,1599.0,Debit Card,TXN-9004
+ORD-1005,Ishaan Mehta,9090909090,India,2025-01-14,13:25:55,P-105,Noise Cancelling Headphones,1,4999.0,Net Banking,TXN-9005
+ORD-1006,Sara Nair,9345678123,India,2025-01-15,14:10:20,P-106,Webcam,2,2199.0,UPI,TXN-9006
+ORD-1007,Kabir Joshi,9765432101,India,2025-01-16,15:55:35,P-107,External SSD,1,6499.75,Credit Card,TXN-9007
+ORD-1008,Mira Sen,9898989898,India,2025-01-17,16:45:50,P-108,Office Chair,1,8999.0,Cash,TXN-9008
+ORD-1009,Reyansh Kapoor,9811122233,India,2025-01-18,17:30:15,P-109,Desk Lamp,4,599.25,Debit Card,TXN-9009
+ORD-1010,Siya Verma,9955512345,India,2025-01-19,18:05:40,P-110,Monitor,2,15499.0,Net Banking,TXN-9010

@@ -1,0 +1,6 @@
+order_id,customer_name,transaction_date,amount,status,payment_method
+ORD1001,Harsh Kumar,2025-01-10,1250.5,Completed,UPI
+ORD1002,Aman Singh,2025-01-11,899.99,Pending,Card
+ORD1003,Riya Sharma,2025-01-12,450.0,Completed,Cash
+ORD1004,Neha Gupta,2025-01-13,2200.75,Failed,Net Banking
+ORD1005,Karan Verma,2025-01-14,1499.0,Completed,UPI
