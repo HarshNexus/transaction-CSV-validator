@@ -5,9 +5,17 @@ const mainRouter = require('./routes');
 const globalErrorHandler = require('./middlewares/errorHandler');
 
 const app = express();
+const allowedOrigins = (process.env.FRONTEND_URL || '')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 
 // Middlewares
-app.use(cors());
+app.use(
+  cors({
+    origin: allowedOrigins.length ? allowedOrigins : true,
+  })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

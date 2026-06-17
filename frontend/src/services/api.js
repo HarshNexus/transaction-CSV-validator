@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE,
@@ -36,7 +36,7 @@ export const listFiles = async (sessionId) => {
 };
 
 export const downloadFile = (sessionId, filename) => {
-  window.location.href = `/api/download/${sessionId}/${filename}`;
+  window.location.href = `${API_BASE}/download/${sessionId}/${filename}`;
 };
 
 export default apiClient;
